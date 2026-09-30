@@ -113,13 +113,6 @@ export default function Landing() {
               Sign in to run today's queue, or register your clinic to get started
               in under a minute.
             </p>
-            {!isSupabaseConfigured && (
-              <p className="mt-4 text-xs text-clinical-600 bg-clinical-50 border border-clinical-500/20 rounded-lg px-3 py-2 leading-relaxed">
-                Running in local demo mode — no cloud database is configured, so
-                data stays on this device. See the README to connect Supabase
-                for real cross-device tracking.
-              </p>
-            )}
           </div>
 
           <div className="bg-white rounded-xl border border-line shadow-panel overflow-hidden">
